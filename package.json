@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npx vite build",
-    "preview": "npx vite preview",
+    "build": "npx --yes vite@latest build",
+    "preview": "npx --yes vite@latest preview",
     "typecheck": "tsc -p tsconfig.json --noEmit"
   },
   "dependencies": {
