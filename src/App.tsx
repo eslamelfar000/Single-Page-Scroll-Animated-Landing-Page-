@@ -94,6 +94,7 @@ function App() {
     <>
       {!loaded && <LoadingScreen onComplete={() => setLoaded(true)} />}
       <div
+      className="overflow-hidden"
         style={{
           visibility: loaded ? "visible" : "hidden",
           pointerEvents: loaded ? "auto" : "none",
