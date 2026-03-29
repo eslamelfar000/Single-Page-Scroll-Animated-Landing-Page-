@@ -89,7 +89,7 @@ function ServiceItem({ service, index }: { service: typeof SERVICES[0]; index: n
   return (
     <div
       ref={itemRef}
-      className="service-item py-8 group"
+      className="service-item py-8 group px-4"
       style={{ opacity: 0 }}
     >
       <div className="flex items-start gap-8">
